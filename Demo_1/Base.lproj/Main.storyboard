@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Demo_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3jS-nz-MHt">
+                                <rect key="frame" x="37" y="32" width="300" height="108"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="水豚" translatesAutoresizingMaskIntoConstraints="NO" id="Fsq-Wo-YNW">
+                                <rect key="frame" x="52.5" y="243.5" width="270" height="180"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3K3-Je-lMu">
+                                <rect key="frame" x="37" y="88" width="300" height="108"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="TEST🥳" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4N-1e-x6B">
+                                        <rect key="frame" x="28" y="0.0" width="244" height="86"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="72"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="p4N-1e-x6B" firstAttribute="centerY" secondItem="3K3-Je-lMu" secondAttribute="centerY" constant="-11" id="Izi-K2-Y5T"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.9959682822" green="0.98037677999999995" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3jS-nz-MHt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0i9-UG-gPP"/>
+                            <constraint firstItem="3K3-Je-lMu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3TV-QN-jVN"/>
+                            <constraint firstItem="Fsq-Wo-YNW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jbj-r2-YUS"/>
+                            <constraint firstItem="3jS-nz-MHt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aw2-aw-tJC"/>
+                            <constraint firstItem="3K3-Je-lMu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-191.5" id="b9O-sk-OdK"/>
+                            <constraint firstItem="3K3-Je-lMu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hks-L1-vK2"/>
+                            <constraint firstItem="Fsq-Wo-YNW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mce-nj-Pwe"/>
+                            <constraint firstItem="3K3-Je-lMu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yf4-Pq-sZc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-570.39999999999998" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="水豚" width="270" height="180"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
